@@ -1,0 +1,39 @@
+.caption{
+	@include font(700,36px,42px);
+	letter-spacing: 0.03em;
+	color: #212121;
+	justify-content: center;
+	display:flex;
+    margin: 0px 0px 50px 0px;
+}
+
+@media screen and (min-width: 480px ) {
+    .caption{
+		@include font(700,28px,33px);
+		letter-spacing: 0.03em;
+		color: #212121;
+		justify-content: center;
+		display:flex;
+		margin: 0px 0px 30px 0px;
+	}
+}
+@media screen and (min-width: 768px ) {
+    .caption{
+		@include font(700,28px,33px);
+		letter-spacing: 0.03em;
+		color: #212121;
+		justify-content: center;
+		display:flex;
+		margin: 0px 0px 30px 0px;
+	}
+}
+@media screen and (min-width: 1200px ) {
+    .caption{
+		@include font(700,36px,42px);
+		letter-spacing: 0.03em;
+		color: #212121;
+		justify-content: center;
+		display:flex;
+		margin: 0px 0px 50px 0px;
+	}
+}
