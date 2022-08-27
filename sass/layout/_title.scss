@@ -5,7 +5,7 @@
         background-color: #C4C4C4;
         background: rgba(47, 48, 58, 0.4);
         background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)), url("/images/background/bgd-mob-x1.jpg") ;
+        rgba(47, 48, 58, 0.4)), url("../images/background/bgd-mob-x1.jpg") ;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -47,7 +47,7 @@
 screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .title {
-        background-image: url('/images/background/bgd-mob-x2.jpg');
+        background-image: url('../images/background/bgd-mob-x2.jpg');
     }
 }
 @media screen and (min-width: 768px ) {
@@ -56,7 +56,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         background-color: #C4C4C4;
         background: rgba(47, 48, 58, 0.4);
         background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)), url("/images/background/bgd-tab-x1.jpg") ;
+        rgba(47, 48, 58, 0.4)), url("../images/background/bgd-tab-x1.jpg") ;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -98,7 +98,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .title {
-        background-image: url('/images/background/bgd-tab-x2.jpg');
+        background-image: url('../images/background/bgd-tab-x2.jpg');
     }
 }
 @media screen and (min-width: 1200px ) {
@@ -107,7 +107,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         background-color: #C4C4C4;
         background: rgba(47, 48, 58, 0.4);
         background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)), url("/images/background/bgd-desk-x1.jpg") ;
+        rgba(47, 48, 58, 0.4)), url("../images/background/bgd-desk-x1.jpg") ;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -150,6 +150,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 screen and (min-resolution: 192dpi) and (min-width: 1200px),
 screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .title {
-        background-image: url('/images/background/bgd-desk-x2.jpg');
+        background-image: url('../images/background/bgd-desk-x2.jpg');
     }
 }
